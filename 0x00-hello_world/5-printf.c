@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints a string with newline using printf 
+ * main - prints a string with newline using printf
  *
  * Return: 0
  */
