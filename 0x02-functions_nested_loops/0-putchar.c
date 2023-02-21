@@ -11,7 +11,7 @@ void    _putchar(void)
 
 /**
  * main - calls the function _putchar
- * 
+ *
  * Return: 0
  */
 int main(void)
@@ -19,3 +19,4 @@ int main(void)
 	_putchar();
 	return (0);
 }
+
