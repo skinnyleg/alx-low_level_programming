@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-void    _putchar(void);
+void    _putchar(int c);
 
 #endif
 
