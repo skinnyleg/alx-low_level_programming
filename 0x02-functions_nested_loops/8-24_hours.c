@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_last_digit - print every minute
+ * jack_bauer - print every minute
  * from 00:00 to 23:59
  *
  */
