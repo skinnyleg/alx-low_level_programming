@@ -18,12 +18,26 @@ void jack_bauer(void)
 		while (j < 60)
 		{
 			if (i < 10)
+			{
 				_putchar('0');
-			_putchar(i + '0');
+				_putchar(i + '0');
+			}
+			else
+			{
+				_putchar((i / 10) + '0');
+				_putchar(print_last_digit(i) + '0');
+			}
 			_putchar(':');
 			if (j < 10)
+			{
 				_putchar('0');
-			_putchar(j + '0');
+				_putchar(j + '0');
+			}
+			else
+			{
+				_putchar((j / 10) + '0');
+				_putchar(print_last_digit(j) + '0');
+			}
 			_putchar('\n');
 			j++;
 		}
