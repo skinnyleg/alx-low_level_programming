@@ -6,7 +6,7 @@
  * @n: a number
  * Return: 0 is n is zero and
  * 1 if n is bigger than zero
- * and -1 if n is negative 
+ * and -1 if n is negative
  */
 
 int print_sign(int n)
