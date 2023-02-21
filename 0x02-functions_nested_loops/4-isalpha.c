@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _islower - checks if c is lowercase
+ * _isalpha - checks if c is a letter
  *
  * @c: the character ascii
- * Return: 0 if c is lowercase and
- * 1 if it's uppercase
+ * Return: 0 if c is not a letter and
+ * 1 if it's a letter
  */
 
 int _isalpha(int c)
@@ -16,3 +16,4 @@ int _isalpha(int c)
 		return (1);
 	return (0);
 }
+
