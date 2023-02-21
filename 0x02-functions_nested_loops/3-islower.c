@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - prints the alphabet
- * 10 times
- *
+ * _islower - checks if c is lowercase
+ * Return: 0 if c is lowercase and
+ * 1 if it's uppercase
  */
 
 int _islower(int c)
 {
-    if (c >= 'a' && c <= 'z')
-        return (1);
-    return (0);
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	return (0);
 }
