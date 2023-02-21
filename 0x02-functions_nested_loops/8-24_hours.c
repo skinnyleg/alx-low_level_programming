@@ -1,5 +1,21 @@
 #include "main.h"
+/**
+ * print_last_digit - prints last
+ * digit
+ *
+ * @n: a number
+ * Return: the last digit of n
+ */
 
+int print_last_digit(int n)
+{
+	int i = n % 10;
+
+	if (i < 0)
+		i = i * -1;
+	_putchar(i + '0');
+	return (i);
+}
 /**
  * jack_bauer - print every minute
  * from 00:00 to 23:59
@@ -25,7 +41,7 @@ void jack_bauer(void)
 			else
 			{
 				_putchar((i / 10) + '0');
-				_putchar(print_last_digit(i) + '0');
+				print_last_digit(i);
 			}
 			_putchar(':');
 			if (j < 10)
@@ -36,7 +52,7 @@ void jack_bauer(void)
 			else
 			{
 				_putchar((j / 10) + '0');
-				_putchar(print_last_digit(j) + '0');
+				print_last_digit(j);
 			}
 			_putchar('\n');
 			j++;
