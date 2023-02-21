@@ -3,7 +3,8 @@
 
 #include <stdio.h>
 #include <unistd.h>
-void    _putchar(void);
+
+/* void    _putchar(void); */
 
 #endif
 
