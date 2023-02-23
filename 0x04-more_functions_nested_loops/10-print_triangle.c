@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_square - draws a square
+ * print_triangle - draws a square
  * in the terminal.
  *
  * @size: how big the trianlge
