@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_line - draws a diagonal line
+ * print_diagonal - draws a diagonal line
  * in the terminal.
  *
- * @n: how many times the 
+ * @n: how many times the
  * diagonal is drawn
  */
 
