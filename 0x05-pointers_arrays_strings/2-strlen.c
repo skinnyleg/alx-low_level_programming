@@ -6,6 +6,7 @@
  *
  * @s: a pointer to a squence of
  * characters
+ * Return: the length of the string s
  */
 
 int _strlen(char *s)
