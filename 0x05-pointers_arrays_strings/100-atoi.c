@@ -17,7 +17,7 @@ int _atoi(char *s)
 	i = 0;
 	sign = 1;
 	r = 0;
-	while ((s[i] >= 9 && s[i] <= 13) || s[i] == 32 || s[i] == 43 || s[i] == 45)
+	while (!(s[i] >= 48 && s[i] <= 57))
 	{
 		if (s[i] == 45)
 			sign = -sign;
