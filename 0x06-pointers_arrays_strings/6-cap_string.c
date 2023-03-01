@@ -26,12 +26,12 @@ char *cap_string(char *str)
 		else if (str[i - 1] == ',' || str[i - 1] == ';' || str[i - 1] == '.')
 		{
 			if (str[i] >= 'a' && str[i] <= 'z')
-				str[i] -= 32;	
+				str[i] -= 32;
 		}
 		else if (str[i - 1] == '!' || str[i - 1] == '?' || str[i - 1] == '\"')
 		{
 			if (str[i] >= 'a' && str[i] <= 'z')
-				str[i] -= 32;	
+				str[i] -= 32;
 		}
 		else if (str[i - 1] == '(' || str[i - 1] == ')')
 		{
