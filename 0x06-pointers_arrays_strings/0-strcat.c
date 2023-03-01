@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - appends the src string 
+ * _strcat - appends the src string
  * to the dest string
  *
  * @src: a string to copy from
