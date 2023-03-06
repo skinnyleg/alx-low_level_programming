@@ -3,7 +3,7 @@
 /**
  * _memset - fills the n bytes
  * of the s string with the value
- * of b 
+ * of b
  *
  * @s: a string
  * @b: the value to fill the string with
