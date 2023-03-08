@@ -13,7 +13,7 @@ int is_prime(int n, int i)
 {
 	if (n % i != 0 && i < n)
 		return (is_prime(n, i + 1));
-	if (n % i == 0)
+	if (n % i == 0 && i < n)
 		return (0);
 	return (1);
 }
