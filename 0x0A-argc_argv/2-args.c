@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints program name
+ * main - prints all the arguments
+ * with a new line for every argument
  *
  * @argc: number of arguments
  * @argv: two dimensional array
