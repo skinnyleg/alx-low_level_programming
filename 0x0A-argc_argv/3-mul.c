@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
- * main - prints program name
+ * main - multiply two arguments
+ * and prints it
  *
  * @argc: number of arguments
  * @argv: two dimensional array
