@@ -13,6 +13,7 @@
 int main(int argc, char **argv)
 {
 	int i = 1;
+	int j = 0;
 	int res = 0;
 
 	if (argc == 0)
@@ -22,11 +23,16 @@ int main(int argc, char **argv)
 	}
 	while (i < argc)
 	{
-		if (argv[i][0] <= '0' || argv[i][0] >= '9')
+		j = 0;
+		while (argv[i][j] != '\0')
 		{
-			printf("Error\n");
-			return (1);
-		}
+			if (argv[i][j] <= '0' || argv[i][j] >= '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
+			j++;	
+		}	
 		res += atoi(argv[i]);
 		i++;
 	}
