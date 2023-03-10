@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * main - multiply two arguments
- * and prints it
+ * main - the sum of the arguments
  *
  * @argc: number of arguments
  * @argv: two dimensional array
- * Return: 0
+ * Return: 0 is succseful or 1 if an error
+ * occurred
  */
 
 int main(int argc, char **argv)
@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 		}
 		res += atoi(argv[i]);
 		i++;
-	}	
+	}
 	printf("%d\n", res);
 	return (0);
 }

@@ -7,7 +7,8 @@
  *
  * @argc: number of arguments
  * @argv: two dimensional array
- * Return: 0
+ * Return: 0 is succseful or 1 if an error
+ * occurred
  */
 
 int main(int argc, char **argv)
