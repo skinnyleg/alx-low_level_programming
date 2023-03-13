@@ -103,6 +103,11 @@ char **strtow(char *str)
 	if (!str || str[0] == '\0')
 		return (NULL);
 	j = calc_block(str);
+	if (j == 0)
+	{
+		printf("Failed\n");
+		return (NULL);
+	}
 	hub = (char **)malloc((j + 1) * sizeof(char *));
 	if (hub == NULL)
 		return (NULL);
