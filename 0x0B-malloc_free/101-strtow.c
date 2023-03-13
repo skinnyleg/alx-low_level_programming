@@ -105,6 +105,6 @@ char **strtow(char *str)
 	hub = (char **)malloc((j + 1) * sizeof(char *));
 	if (hub == NULL)
 		return (NULL);
-	calc_size_copy(hub, (char *)str, ' ', j);
+	calc_size_copy(hub, (char *)str, j);
 	return (hub);
 }
