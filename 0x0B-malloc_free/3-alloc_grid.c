@@ -1,6 +1,23 @@
 #include "main.h"
 
 /**
+ * free_2d - frees the two dimensional array
+ *
+ * @ptr: the two dimensional array
+ * @block: index where alocation failed
+ */
+
+void free_2d(int **ptr, int block)
+{
+	while (block != 0)
+	{
+		block--;
+		free(ptr[block]);
+	}
+	free(ptr);
+}
+
+/**
  * alloc_grid - creates 2 dimensional array of integers
  *
  * @width: width of the two dimensional array
@@ -24,7 +41,7 @@ int **alloc_grid(int width, int height)
 	{
 		ptr[i] = (int *)malloc(sizeof(int) * (width));
 		if (ptr[i] == NULL)
-			return (NULL);
+			return (free_2d(ptr, i), NULL);
 		j = 0;
 		while (j < width)
 		{
