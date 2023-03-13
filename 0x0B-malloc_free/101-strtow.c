@@ -25,8 +25,9 @@ int	calc_block(char const *str)
 /**
  * free_memory - frees the two dimensional array
  *
- * @ptr: the two dimensional array
+ * @s: the two dimensional array
  * @block: index where alocation failed
+ * Return: NULL
  */
 
 
@@ -64,7 +65,7 @@ char	**calc_size_copy(char **hub,	char *str,	int block)
 		{
 			hub[l] = (char *)malloc((i + 1) * sizeof(char));
 			if (hub[l] == NULL)
-				free_memory(hub, block);
+				return (free_memory(hub, block));
 			j = 0;
 			while (j < i)
 			{
