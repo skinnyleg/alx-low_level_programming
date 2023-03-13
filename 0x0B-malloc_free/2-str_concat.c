@@ -5,7 +5,7 @@
  *
  * @s1: the first string
  * @s2: the second string
- * Return: NULL if str is NULL or
+ * Return: NULL if allocation failed or
  * the array created and initialezed
  */
 
