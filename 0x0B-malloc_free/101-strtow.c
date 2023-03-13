@@ -31,7 +31,7 @@ int	calc_block(char const *str)
  */
 
 
-char	*free_memory(char **s,	int block)
+char	**free_memory(char **s,	int block)
 {
 	while (block--)
 		free(s[block]);
