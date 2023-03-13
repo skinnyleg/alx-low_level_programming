@@ -5,7 +5,7 @@
  * and initializes it with a string
  *
  * @str: the array to copy from
- * Return: NULL if stris NULL or
+ * Return: NULL if str is NULL or
  * the array created and initialezed
  */
 
